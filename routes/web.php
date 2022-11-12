@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/listar', function () {
-    return view('listar');
+Route::get('/alumno', function () {
+    return view('alumno');
 });
 
 Auth::routes();
